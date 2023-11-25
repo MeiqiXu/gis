@@ -1,0 +1,24 @@
+"0","install.packages(""usethis"")"
+"1","Error in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," : "
+"1",""
+"1","Updating loaded packages"
+"1",""
+"1","
+"
+"0","library(usethis)"
+"0","use_git_config(user.name=""MeiqiXu"",user.email=""meiqi.xu.23@ucl.ac.uk"")"
+"0","use_git()"
+"0","use_github()"
+"1","[1m[33mError[39m in `git_default_branch()`:[22m
+[38;5;232m[33m![38;5;232m Default branch mismatch between local repo and remote.
+The default branch of the [34m""origin""[38;5;232m remote is [34m""main""[38;5;232m.
+But the default branch of the local repo appears to be [34m""master""[38;5;232m.
+Call `git_default_branch_rediscover()` to resolve this.[39m
+Backtrace:
+[90m 1. [39m[1musethis[22m::use_github()
+[90m 2. [39m[1m[94musethis::git_default_branch([39m[22m[1m[94m)[39m[22m
+"
