@@ -19,7 +19,7 @@ date: 2023-12-6
 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
 ```
 
 ## R Markdown
